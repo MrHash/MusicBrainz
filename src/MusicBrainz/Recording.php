@@ -62,7 +62,23 @@ class Recording
 
         return $this;
     }
-
+    
+    /**
+     * @return array
+     */
+    public function getData()
+    {
+    	return $this->data;
+    }
+    
+    /**
+     * @return array
+     */
+    public function getTitle()
+    {
+    	return $this->title;
+    }
+    
     /**
      * @return int
      */
